@@ -19,7 +19,7 @@ import pickle
 from anomaly_detection.ngsy import BooleanAttr, FloatAttr
 from anomaly_detection.ngsy import RawReading, MachineEntity, AnomalyDetectionEntity
 
-ANOMALY_MODEL_PATH_FROM_ROOT = '../data/anomaly_detection.pkl'
+ANOMALY_MODEL_PATH_FROM_ROOT = 'data/anomaly_detection.pkl'
 
 
 with open(ANOMALY_MODEL_PATH_FROM_ROOT, 'rb') as open_file:
