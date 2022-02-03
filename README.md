@@ -18,11 +18,11 @@ pipenv shell
 ## Testing before building
 Open your favorite python ide in this virtual enviromnment and run the tests
 ```
-pytest tests
+python -m pytest tests
 ```
 or just run unit tests
 ```
-pytest tests/unit
+python -m pytest tests/unit
 ```
 ## Buid and Run Docker image
 ```
